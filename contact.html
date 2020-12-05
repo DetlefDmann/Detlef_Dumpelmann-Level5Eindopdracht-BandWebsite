@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="nl-nl">
+  <head>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather&family=Metal+Mania&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+  </head>
+  <body>
+    <header>
+      <h1>Contact</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="./index.html">Welkom</a></li>
+        <li><a href="./about.html">Over ons</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+        <li><a href="./vacatures.html">Vacatures</a></li>
+        <li><a href="./links.html">Links</a></li>
+      </ul>
+    </nav>
+    <main>
+      <h2>
+        Wil je meer weten?<br />
+        Of heb je een opmerking?<br />
+        Neem dan contact op via dit formulier.
+      </h2>
+      <fieldset>
+        <form name="contact" method="POST" data-netlify="true">
+          <p>
+            <label>Naam : <input type="text" name="name" /></label>
+          </p>
+          <p>
+            <label> E-mail : <input type="email" name="email" /></label>
+          </p>
+          <p>
+            <label> Telefoon:<input type="tel" name="tel" /></label>
+          </p>
+          <p>
+            <label
+              >Vraag of opmerking: <textarea name="opmerking"></textarea>
+            </label>
+          </p>
+          <p>
+            <button type="submit">Verstuur</button>
+          </p>
+        </form>
+      </fieldset>
+    </main>
+    <footer>
+      <p>© Copyright Detlef Dumpelmann 2020</p>
+      <br />
+      <p>Disclaimer</p>
+      <p>This website is made as part of a course to learn webdevelopment.</p>
+      <p>Sock Puppet Parody is the real deal</p>
+    </footer>
+  </body>
+</html>
